@@ -255,7 +255,7 @@ The Gold layer implements a Galaxy Schema (also known as a Fact Constellation Sc
 - A Star Schema contains one fact table. It is ideal for a single business process.
 - A Galaxy Schema contains two or more fact tables that share conformed dimensions.
 
-Screenshot: Pipelines and Model/data_model.png
+![Initial Load Pipeline](Pipelines%20and%20Model/Model_new.PNG)
 
 ---
 

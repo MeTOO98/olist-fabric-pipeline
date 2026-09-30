@@ -135,8 +135,8 @@ olist-fabric-pipeline/
 │   └── reviews_page.png
 ├── Pipelines and Model/            # Fabric pipelines + Galaxy schema
 │   ├── initial_pipeline.png
-│   ├── incremental_pipeline.png
-│   ├── incremental_copy_pipeline.png
+│   ├── sup_incremental_pipeline.png
+│   ├── main_incremental_pipeline.png
 │   └── data_model.png
 ├── Raw_Data/                       # Original Olist CSV files
 │   ├── olist_customers_dataset.csv

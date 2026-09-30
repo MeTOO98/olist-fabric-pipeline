@@ -340,15 +340,21 @@ The end product of the pipeline is a Power BI dashboard built on top of the Gold
 ### 1. Overview
 Total Revenue, Total Orders, Total Customers, Average Order Value, Revenue trend, Orders by status, Revenue by category.
 
+![Initial Load Pipeline](Dashboard/Dashboard_Overview.PNG)
+
 ### 2. Orders
 Total Orders, Delivered Orders, Late Deliveries, Average Delivery Days, Late vs on-time, Orders by state, Delivery performance.
+
+![Initial Load Pipeline](Dashboard/Dashboard_Orders.PNG)
 
 ### 3. Payments
 Total Payment Value, Average Payment Value, Total Payment Transactions, Payment Types, Payment trend, Payment type distribution, Installments analysis, Avg payment by type.
 
+![Initial Load Pipeline](Dashboard/Dashboard_Payments.PNG)
+
 ### 4. Reviews
 Total Reviews, Average Review Score, 5-Star Reviews, Response Rate, Avg score over time, Delivery vs Review scatter, 5-star % by state, Avg score by category.
 
-Screenshots: Dashboard/*.png
+![Initial Load Pipeline](Dashboard/Dashboard_Reviews.PNG)
 
 ---

@@ -28,8 +28,8 @@ An end-to-end data pipeline that ingests the Olist Brazilian E-Commerce dataset 
 The Olist dataset is a public e-commerce dataset containing ~100k orders placed between 2016 and 2018 across multiple Brazilian marketplaces. This project:
 
 - Loads the raw CSV data into SQL Server as the source system.
-- Uses Microsoft Fabric Data Pipelines to move the data into a Lakehouse (Bronze layer).
-- Applies data-quality and cleansing transformations using PySpark notebooks (Silver layer, initial load).
+- Uses Microsoft Fabric Data Pipeline to move the data into a Lakehouse (Bronze layer).
+- Applies data-quality and cleansing transformations using PySpark notebook (Silver layer, initial load).
 - Loads cleansed data into a Fabric Warehouse using stored procedures (Gold layer).
 - Runs the incremental load entirely through T-SQL stored procedures inside the Warehouse — the Lakehouse is only used by the initial load.
 - Publishes an interactive Power BI dashboard on top of the Gold Galaxy Schema (multi-fact star).

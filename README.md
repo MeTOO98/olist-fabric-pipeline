@@ -206,8 +206,8 @@ Full-refresh tables (no timestamps): sellers, products, geolocation, product_cat
 
 [Lookup tables] → [ForEach → Copy Tables → Bronze] → [Notebook: Add_Metadata] → [Notebook: Silver_Notebook] → [Refresh SQL analytics endpoint] → [ForEach → Execute Stored Procedures → Gold]
 
-Screenshot: 
-![Initial Load Pipeline](Pipelines%20and%20Model/final_initial_pipeline.png)
+Screenshot: ![Initial Load Pipeline](Pipelines%20and%20Model/final_initial_pipeline.PNG)
+
 
 ### Incremental Load Pipeline
 

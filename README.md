@@ -253,10 +253,6 @@ The Gold layer implements a Galaxy Schema (also known as a Fact Constellation Sc
 - A Star Schema contains one fact table. It is ideal for a single business process.
 - A Galaxy Schema contains two or more fact tables that share conformed dimensions.
 
-### Aggregation Warning (Galaxy-specific)
-
-Because the four facts sit at different grains, they cannot be summed across one another directly.
-
 Screenshot: Pipelines and Model/data_model.png
 
 ---
@@ -268,7 +264,6 @@ Silver transformations are applied twice in this project:
 1. Initial load — via Silver_Notebook.ipynb (Bronze → Silver Lakehouse tables).
 2. Incremental load — via Incremental Silver.sql stored procedures (staging → silver_incremental Warehouse tables).
 
-> Two Silver stores — initial load writes to olist_Lakehouse.silver.*, incremental load writes to silver_incremental.*. There is no shared Silver store.
 
 | Table | Rules |
 |---|---|

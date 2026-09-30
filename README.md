@@ -19,8 +19,7 @@ An end-to-end data pipeline that ingests the Olist Brazilian E-Commerce dataset 
 - Gold Layer
 - Incremental Load Strategy
 - Dashboard (Result)
-- How to Run
-- Known Issues
+
 
 ---
 

@@ -206,14 +206,14 @@ Full-refresh tables (no timestamps): sellers, products, geolocation, product_cat
 
 [Lookup tables] → [ForEach → Copy Tables → Bronze] → [Notebook: Add_Metadata] → [Notebook: Silver_Notebook] → [Refresh SQL analytics endpoint] → [ForEach → Execute Stored Procedures → Gold]
 
-Screenshot: ![Initial Load Pipeline](Pipelines%20and%20Model/final_initial_pipeline.PNG)
+![Initial Load Pipeline](Pipelines%20and%20Model/final_initial_pipeline.PNG)
 
 
 ### Incremental Load Pipeline
 
 [Invoke Copy_Pipeline] → [ForEach → Silver_SP] → [ForEach → Gold_SP]
 
-Screenshot: Pipelines and Model/incremental_pipeline.png
+![Initial Load Pipeline](Pipelines%20and%20Model/main_incremental_pipeline.PNG)
 
 ### Incremental Copy Pipeline
 
@@ -223,7 +223,8 @@ Lookup watermark → Copy order_items
 Lookup watermark → Copy order_payments
 Lookup watermark → Copy order_reviews
 
-Screenshot: Pipelines and Model/incremental_copy_pipeline.png
+![Initial Load Pipeline](Pipelines%20and%20Model/sup_main_pipeline.PNG)
+
 
 ---
 

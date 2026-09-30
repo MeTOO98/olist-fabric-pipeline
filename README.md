@@ -138,7 +138,7 @@ olist-fabric-pipeline/
 │   ├── sup_incremental_pipeline.png
 │   ├── main_incremental_pipeline.png
 │   └── data_model.png
-├── Raw_Data/                       # Original Olist CSV files
+├── Raw_Data/                       # Original Olist CSV files + pandas code
 │   ├── olist_customers_dataset.csv
 │   ├── olist_geolocation_dataset.csv
 │   └── ...

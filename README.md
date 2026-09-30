@@ -126,37 +126,32 @@ Running two separate transformation paths introduces:
 
 ## Folder Structure
 
-Olist-Project/
-├── Dashboard/                  # Screenshots of the Power BI dashboard pages
+olist-fabric-pipeline/
+│
+├── Dashboard/
 │   ├── orders_page.png
 │   ├── overview_page.png
 │   ├── payments_page.png
 │   └── reviews_page.png
 │
-├── Pipelines and Model/        # Screenshots of Fabric pipelines + Galaxy schema
+├── Pipelines and Model/
 │   ├── initial_pipeline.png
 │   ├── incremental_pipeline.png
 │   ├── incremental_copy_pipeline.png
 │   └── data_model.png
 │
-├── Raw_Data/                   # Original Olist CSV files
+├── Raw_Data/
 │   ├── olist_customers_dataset.csv
 │   ├── olist_geolocation_dataset.csv
-│   ├── olist_order_items_dataset.csv
-│   ├── olist_order_payments_dataset.csv
-│   ├── olist_order_reviews_dataset.csv
-│   ├── olist_orders_dataset.csv
-│   ├── olist_products_dataset.csv
-│   ├── olist_sellers_dataset.csv
-│   └── product_category_name_translation.csv
+│   └── ...
 │
-├── Initial_Load/               # Notebooks + SQL used for the initial (bulk) load
+├── Initial_Load/
 │   ├── From Raw to Bronze.ipynb
 │   ├── Silver_Notebook.ipynb
 │   ├── Gold_Etl_Control.sql
 │   └── Initial Gold.sql
 │
-├── Incremental_Load/           # SQL scripts used for the incremental load
+├── Incremental_Load/
 │   ├── Incremental Staging.sql
 │   ├── Incremental Silver.sql
 │   ├── Incremental Gold.sql
